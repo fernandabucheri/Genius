@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-image: url(/background/bg.jpg);
+    background-repeat: repeat;
+    background-size: 200px;
+}
+
+.main-game {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genius {
+    display: grid;
+    grid-template-areas: 'verde amarelo' 'vermelho azul';
+    grid-gap: 15px; /* espaço entre cada área */
+
+    /* borda */
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 100%;
+    margin-top: 0%;
+    width: 700px;
+    height: 700px;
+}
+
+.green {
+    grid-area: verde;
+    background-color: limegreen;
+    border-top-left-radius: 100%;
+}
+
+.red {
+    grid-area: vermelho;
+    background-color: red;
+    border-bottom-left-radius: 100%;
+}
+
+.yellow {
+    grid-area: amarelo;
+    background-color: yellow;
+    border-top-right-radius: 100%;
+}
+
+.blue {
+    grid-area: azul;
+    background-color: #3975ff;
+    border-bottom-right-radius: 100%;
+}
+
+.selected {
+    opacity: 0.6; /* opacidade - quando a peça for selecionada, ela fica mais clara ("iluminada") */
+}
