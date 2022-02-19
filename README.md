@@ -3,7 +3,7 @@
 <br>
  
 ## Descrição:
-Projeto desenvolvido com base nas aulas da plataforma dio.me com objetivo de criar um jogo da memória estio Genius utilizando HTML, CSS e Javascript. 
+Projeto desenvolvido com base nas aulas da plataforma dio.me com objetivo de criar um jogo da memória estilo Genius utilizando HTML, CSS e Javascript. 
 <br><br>
 Principais conceitos aplicados: CSS Grid, manipulação de Array e Arrow Functions. 
 
